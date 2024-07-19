@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+header{
+    display: flex;
+    height: 80px;
+    background-color:white;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow:1px 1px #ebe9e9;
+    position: sticky;
+    top: 0px;
+}
+.myntrahome{
+    height: 50px;
+}
+.logo{
+    margin-left: 4%;
+}
+.actionbar{
+    margin-right: 4%;
+}
+.navbar{
+    display: flex;
+    min-width: 500px;
+    justify-content:space-evenly;
+}
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    padding:28px 0px ;
+    border-bottom: 4px solid white;
+   
+}
+sup{
+    color: rgb(244, 64, 94);
+    font-size: 10px;
+}
+.searchbar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.searchicon{
+   height: 20px;
+   padding: 10px;
+   box-sizing: content-box;
+   background-color: #f5f5f6;
+   color: #696e79;
+   font-weight: 300;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+
+}
+.searchbox{
+    background-color: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.actionbar{
+    display: flex;
+    min-width: 200px;
+    justify-content:space-evenly;
+}
+.actioncontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar a:hover{
+    border-bottom:4px solid rgb(227, 87, 111);
+}
+
+
+/* main section */
+.bannercontainer{
+    margin: 15px 0px 15px 0px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgbanner{
+    height: 400px;
+    width:97%;  
+    padding:0px 20px 0px 20px ;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin:40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing:10px;
+}
+.offers{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.saleitem img{
+    width: 250px;
+}
+
+/* footer section */
+.footercontainer{
+    padding:30px 0px 40px 0px ;
+    background: #FAFBFC;
+    display: flex;
+    justify-content:space-evenly;
+}
+.footercolumn{
+    display: flex;
+    flex-direction: column;
+}
+.footercolumn a {
+    text-decoration: none;
+    color: black;
+}
+.footercolumn h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.copyright{
+    padding: 15px;
+    color:#94969f;
+    text-align: end;
+}
